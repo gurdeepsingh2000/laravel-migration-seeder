@@ -9,6 +9,6 @@ class HomeController extends Controller
 {
     public function index(){
         $allTrips = Trip::all();
-        dump($allTrips);
+        var_dump($allTrips);
     }
 }
