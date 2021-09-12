@@ -59,7 +59,37 @@
                 </div>
             </div>
         @endforeach
+</div>
 
+
+
+<h2 class="best-packages">I migliori Pacchetti</h2>
+
+
+<div class="best-cards-container">
+        @foreach($bestTrips as $mostRated)
+            <div class="card-package">
+                <div class="card-description">
+                    <h3>Nome Agenzia</h3>
+                    <div>{{$mostRated->Agency_Name}}</div>
+
+                    <h3>Destinazione</h3>
+                    <div>{{$mostRated->Destination}}</div>
+
+                    <h3>Luogo</h3>
+                    <div>{{$mostRated->Place}}</div>
+
+                    <h3>Prezzo</h3>
+                    <div>{{$mostRated->Price}}</div>
+
+                    <h3>Valutazione</h3>
+                    <div>{{$mostRated->review}}</div>
+                    <div class="img-container">
+                        <img src="{{$mostRated->cover}}" alt="">
+                    </div>
+                </div>
+            </div>
+        @endforeach
 </div>
 
 @endsection

@@ -48,7 +48,9 @@
   border: 1px solid #287dfa;
 }
 
-main .cards-container {
+main .cards-container,
+main .cheap-cards-container,
+main .best-cards-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -56,15 +58,8 @@ main .cards-container {
   text-align: center;
 }
 
-main .cheap-cards-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  text-align: center;
-}
-
-main .cheap-packages {
+main .cheap-packages,
+main .best-packages {
   text-align: center;
 }
 

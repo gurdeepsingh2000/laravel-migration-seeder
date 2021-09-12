@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function index(){
         $allTrips = Trip::all();
         $filteredTrips = Trip::where('price','<',90)->get();
-        return view('HomePage',compact('allTrips','filteredTrips'));
+        $bestTrips = Trip::where('review','>',9)->get();
+        return view('HomePage',compact('allTrips','filteredTrips','bestTrips'));
     }
 }

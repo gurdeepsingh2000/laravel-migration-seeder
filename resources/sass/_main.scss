@@ -1,5 +1,5 @@
 main{
-    .cards-container{
+    .cards-container,.cheap-cards-container,.best-cards-container{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -7,15 +7,8 @@ main{
         text-align: center;
     }
 
-    .cheap-cards-container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        text-align: center;
-    }
 
-    .cheap-packages{
+    .cheap-packages, .best-packages{
         text-align: center;
     }
         
