@@ -4,6 +4,19 @@ main{
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
+        text-align: center;
+    }
+
+    .cheap-cards-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .cheap-packages{
+        text-align: center;
     }
         
 

@@ -53,6 +53,19 @@ main .cards-container {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  text-align: center;
+}
+
+main .cheap-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+main .cheap-packages {
+  text-align: center;
 }
 
 main .card-package {
