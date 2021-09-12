@@ -1,0 +1,52 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .logo-container{
+        width: 200px;
+
+        img{
+            width:100%;
+        }
+    }
+
+    .menu-container{
+        flex-grow: 1;
+        
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+    }
+
+    .user-language{
+        width:15%;
+        display:Flex;
+        justify-content:center;
+        justify-content: space-evenly;
+
+        select{
+            border-radius:5px;
+            border: 1px solid #287dfa;
+            color: white;
+            background-color:#287dfa;
+
+            option{
+               background-color:#287dfa;
+            }
+        }
+    }
+
+    .user-sign{
+        button{
+            background:transparent;
+            color: #287dfa;
+            height: 10%;
+            width: 80%;
+            border: 1px solid #287dfa;
+        }
+    }
+
+}

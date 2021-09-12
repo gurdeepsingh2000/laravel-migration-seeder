@@ -9,6 +9,6 @@ class HomeController extends Controller
 {
     public function index(){
         $allTrips = Trip::all();
-        dump($allTrips);
+        return view('HomePage',compact('allTrips'));
     }
 }

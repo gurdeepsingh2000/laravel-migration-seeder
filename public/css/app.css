@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);.navbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.navbar .logo-container {
+  width: 200px;
+}
+
+.navbar .logo-container img {
+  width: 100%;
+}
+
+.navbar .menu-container {
+  flex-grow: 1;
+}
+
+.navbar .menu-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar .user-language {
+  width: 15%;
+  display: Flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.navbar .user-language select {
+  border-radius: 5px;
+  border: 1px solid #287dfa;
+  color: white;
+  background-color: #287dfa;
+}
+
+.navbar .user-language select option {
+  background-color: #287dfa;
+}
+
+.navbar .user-sign button {
+  background: transparent;
+  color: #287dfa;
+  height: 10%;
+  width: 80%;
+  border: 1px solid #287dfa;
+}
+
+main .cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main .card-package {
+  border: 5px solid #007cc2;
+  border-radius: 20px;
+  width: calc(100% / 4 - 50px);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+main .card-package .card-description h3 {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+main .card-package .img-container {
+  width: 300px;
+  height: 190px;
+}
+
+main .card-package .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: "Roboto";
+}
+
